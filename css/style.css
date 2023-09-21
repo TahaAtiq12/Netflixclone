@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.firstsection{
+    background: rgba(0, 0, 0, 0.7) url(../images/background-image.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    color: white;
+    text-align: center;
+    height: 692.594px;
+    
+    font-family: 'Montserrat',sans-serif;
+}
+.nav{
+    margin: 0 56px;
+    padding: 25px;
+    display: flex;
+    
+
+}
+.btn{
+    padding: 4px 8px;
+    margin-left: 900px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 81px;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: rgb(245, 37, 37);
+}
+.nav h1{
+    color: red;
+    text-shadow: black;
+}
+.title{
+    margin-top: 150px;
+    
+}
+ h1,h2,h3{
+    line-height: 1.1;
+    font-family: 'Montserrat';
+}
+
+
+.title h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 auto;
+    width: 640px;
+}
+.title h2{
+    font-size: 1.5rem;
+    padding-top: 25px;
+}
+.title h3{
+    font-size: 1rem;
+    padding-top: 35px;
+    padding-bottom: 18px;
+}
+
+.e-mail{
+    height: 60px;
+    min-width: 450px;
+    position: relative;
+}
+.getstarted{
+    padding: 22px 26px;
+    background-color: red;
+    margin:0;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+.started{
+    background-color: red;
+    font-size: 1em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.started:hover{
+    opacity: 0.9;
+}
+.netflix-logo{
+    width: 13%;
+}
+hr{
+    height: 10px;
+    background-color: darkgrey;
+    border: none;
+}
+.secondsection{
+    background-color: black;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 45px;
+}
+.sec2 h1{
+    font-size: 3rem;
+    padding-bottom: 2%;
+}
+.sec3 h1{
+    font-size: 3rem;
+    padding-bottom: 2%;
+}
+.gif{
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+
+.tv1{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.tv{
+    overflow: hidden;
+    position: relative;
+}
+.gif2{
+    
+    
+    height: 100%;
+    width: 100%;
+}
+
+.thirdsection{
+    background-color: black;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 45px;
+}
+
+.download{
+    border: 2px solid grey;
+    
+    width: 58%;
+    display: flex;
+    max-height: 70px;
+    border-radius: 8px;
+    margin-left: 93px;
+    padding: 8px 12px;
+    align-items: center;
+    
+}
+    
+    
+
+.cover1{
+    width: 20%;
+}
+.downloading{
+    padding-top: 35px;
+
+    color: blue;
+}
+.icon{
+    width: 18%;
+    
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-top: 0px;
+}
+.strange{
+    display: flex;
+    
+    padding-top: 20px;
+    
+}
+.text{
+    padding-left: 5%;
+    padding-bottom: 8%;
+}
+.sixsection{
+    text-align: center;
+    padding: 70px 45px;
+}
+.Q-A{
+    padding: 52px 222px;
+    list-style: none;
+
+}
+li{
+    list-style-type:none;
+    margin: 0 0 8px;
+    background-color: rgb(44, 41, 41);
+    border: 0.5px solid black;
+}
+.btn2{
+    display: block;
+    text-align: left;
+    background-color: rgb(44, 41, 41);
+    border: none;
+    padding: 25px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+  
+
+.sixsection1{
+    padding: 70px 45px;
+    text-align: left;
+    margin:0 129.5px;
+    color: rgb(90, 83, 83);
+    max-height: 70%;
+}
+.q{
+    padding: 25px;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+.footer{
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+    padding-top: 2%;
+}
+    
+
+.foot{
+    list-style: none;
+    background-color: black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 22px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 24%;
+}
+
+.net{
+    padding-top: 5%;
+}
+.foot2{
+    font-size: 1rem;
+}
